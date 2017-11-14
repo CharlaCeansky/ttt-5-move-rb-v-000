@@ -12,5 +12,6 @@ def input_to_index(user_input)
 end
 #code your move method here!
 def move(board, index, character = "X")
+  binding.pry
   board[index]= character
 end
